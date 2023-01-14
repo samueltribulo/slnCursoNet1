@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class ClienteEmpresa:Persona    
+    public class Vendedor:Persona
     {
-        public string Contacto { get; set; }
+
+        public string Apellido { get; set; }
 
     }
 }
